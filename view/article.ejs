@@ -1,0 +1,31 @@
+<%- include('header'); -%>
+    <div class="jumbotron jumbotron-fluid text-white" > 
+        <div class="modal-body row">
+            <div class="col-4">
+                <h1 class="display-3"> Studict </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+	<div id='form'>
+		<div class="form-group">
+			<div class="row align-items-start">
+				<div class="col level2">Level 2</div>
+				<div class="col level3">Level 3</div>
+				<div class="col level4">Level 4</div>
+				<div class="col level5">Level 5</div>
+				<div class="col level6">Level 6</div>
+				<div class="col levelOthers">Others</div>
+			<textarea class="form-control show-edit" rows="10" id="text"></textarea>
+			<button type='button' class="btn btn-secondary submit show-edit">Submit</button>
+			<div class="taggedArticlePlace show-view" id="textTagged" style="display: none;"></div>
+			<button type='button' class="btn btn-secondary edit show-view"  style="display: none;">Edit</button>
+			</div>
+		</div>
+	</div>
+	<div class="taggedWord show-view"></div>
+	<div id="loading" style="display: none;"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+<%- include('footer');-%>

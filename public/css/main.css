@@ -1,0 +1,116 @@
+.jumbotron{
+	background:	linear-gradient(rgba(68, 122, 156, 0.75),rgba(68, 122, 156, 0.75)), url(../img/header.jpeg);
+	padding: 0 !important;	
+}
+
+.jumbotron h1{
+	font-family: 'Roboto Slab', serif;
+	color: F1FAEE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+
+
+.navbar{
+	background-color: #1D3557 !important;
+}
+
+.navbar-nav li{
+	margin-right: 10%;
+}
+
+.navbar-nav a{
+	font-size: larger;
+	color: #F1FAEE;
+}
+
+.navbar-nav a:hover{
+	color: #F1FAEE;
+	text-decoration: underline;
+}
+
+#textTagged {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    padding: 4px;
+    line-height: 1.8em;
+    min-height: 60px;
+}
+
+.taggedArticle {
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0.1em 0.2em 0.1em 0.2em; 
+}
+
+.notTaggedArticle {
+    border-radius: 2px;
+    padding: 0.1em 0.2em 0.1em 0.2em; 
+}
+
+.taggedArticle span {
+
+    vertical-align: 4px;
+    font-size: 0.8em;
+    white-space: pre-wrap;
+}
+
+.voc {
+	font-family: 'Roboto Slab', serif;
+	font-size: x-large;
+}
+
+.col-6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+.fl{
+	font-weight: bold;
+}
+
+.stem{
+	font-style: italic;
+}
+.row{
+	margin-bottom: 2%;
+}
+
+
+#loading {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(192, 192, 192, 0.5);
+	background-image: url("../img/loading.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+.level2{background-color: #F6F4D2;}
+.level3{background-color: #D0EFB1;}
+.level4{background-color: #B3D89C;}
+.level5{background-color: #9DC3C2;}
+.level6{background-color: #77A6B6;}
+.levelOthers{background-color: #407298; color: #FFFFFF;}
+
+
